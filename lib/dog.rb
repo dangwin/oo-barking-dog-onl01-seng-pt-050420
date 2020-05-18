@@ -1,7 +1,7 @@
 
 class Dog 
   
-  inst :name 
+  attr_accessor :name 
   
   def bark 
     puts "woof!"
