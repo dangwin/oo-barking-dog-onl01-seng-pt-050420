@@ -1,15 +1,11 @@
 
 class Dog 
   
-  def name=(name)
-    @name = dogs_name
-    
-  end
+  inst :name 
   
-  def name
-    @name
-  end
-end
+  def bark 
+    puts "woof!"
+  
     
 
     
