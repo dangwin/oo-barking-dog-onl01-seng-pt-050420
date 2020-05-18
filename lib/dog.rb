@@ -2,23 +2,18 @@
 class Dog 
   
   def name=(name)
-    @name = name_get
+    @name = dogs_name
     
   end
   
   def name
     @name
   end
+end
     
-    def bark=(bark)
-      @bark = bark_get
-    end
-    
-    def bark
-      @bark
-    end
+
     
 
   
-end
+
 
